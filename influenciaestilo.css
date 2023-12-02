@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+@font-face{
+    font-family: 'philosopher-regular';
+    src: url(fontes/philosopher/Philosopher-Regular.ttf);
+}
+@font-face {
+    font-family: 'neuropolitical';
+    src: url(fontes/neuropolitical/Typodermic\ Desktop\ EULA\ 2023.pdf);
+}
+
+/* Media Query para dispositivos móveis */
+@media (min-width: 0px) and (max-width:767px) {
+    body {
+        margin-right: 20px;
+    }
+    section, article, aside, main, footer {
+        margin: 35px 20px 55px 20px;
+    }
+    #voltarBtn {
+        margin: 35px 20px 45px 20px;
+    }
+    .nav-list {
+        width: 100vw;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li:hover {
+        text-decoration: underline #fff;
+        transition: transform 0.7s ease-in-out;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .mobile-menu.active .nav-list {
+        transform: translateX(0);
+    }
+}
+
+/* Media Query para dispositivos tablet */
+@media (min-width: 768px){
+    body {
+        margin-right: 55px;
+    }
+    section, article, aside, main, footer {
+        margin: 35px 55px 55px 55px;
+    }
+    .nav-list {
+        width: auto;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li:hover {
+        text-decoration: underline #fff;
+        transition: transform 0.7s ease-in-out;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .mobile-menu.active .nav-list {
+        transform: translateX(0);
+    }
+}
+
+/* Media Query para dispositivos desktop */
+@media (min-width: 1000px) {
+    body {
+        margin-right: 200px;
+    }
+    section, article, aside, main, footer {
+        margin: 35px 200px 55px 200px;
+    }
+    .nav-list {
+        width: auto;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+#voltarBtn {
+    font-family: 'neuropolitical', sans-serif;
+    display: block;
+    margin: 35px 20px 45px 20px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#voltarBtn:hover {
+    margin-bottom: 55px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+body {
+    background: url(imagens/fundo-de-inteligencia-artificial_798031-145.avif) no-repeat center center fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(imagens/fundo-de-inteligencia-artificial_798031-145.avif);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+section{
+    color: #fff;
+    text-align: justify;
+    margin: 35px 40px 55px 40px;
+}
+article{
+    color: #fff;
+    text-align: justify;
+    margin: 35px 40px 55px 40px;
+}
+aside{
+    color: #fff;
+    text-align: justify;
+    margin: 35px 40px 55px 40px;
+}
+main{
+    color: #fff;
+    text-align: justify;
+    margin: 35px 40px 55px 40px;
+}
+footer{
+    color: #fff;
+    text-align: justify;
+    margin: 35px 40px 65px 40px;
+}
+footer a{
+    text-align: center;
+    margin-right: 115px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+h1{
+    margin-top: 45px;
+    margin-bottom: 65px;
+    font-family: 'philosopher-regular', sans-serif;
+    letter-spacing: 3px;
+}
+h2{
+    text-align: justify;
+    margin: 0 0 45px 0;
+    font-family: 'philosopher-regular', sans-serif;
+    letter-spacing: 3px;
+}
+aside h3{
+    text-align: justify;
+    margin: 0 0 45px 0;
+    font-family: 'philosopher-regular', sans-serif;
+    letter-spacing: 3px;
+}
+hr{
+    margin-bottom: 55px;
+}
+p{
+    text-align: justify;
+    margin: 0 0 35px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2#IA{
+    font-family: 'neuropolitical', sans-serif;
+    text-align: justify;
+    margin: 0 0 45px 0;
+    letter-spacing: 2px;
+}
+div.top{
+    text-align: justify;
+    margin: 35px 0 45px 0;
+    letter-spacing: 2px;
+}
+div.top a{
+    text-align: justify;
+    margin: 35px 0 45px 0;
+    letter-spacing: 2px;
+}
+div h3#volta{
+    font-family: 'neuropolitical', sans-serif;
+    text-align: justify;
+    margin: 35px 200px 45px 200px;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    padding-left: 400px;
+}
+footer h2#contato{
+    font-family: 'neuropolitical', sans-serif;
+    text-align: justify;
+    margin: 35px 200px 4px 0;
+    letter-spacing: 2px;
+}
+footer a{
+    font-family: 'neuropolitical', sans-serif;
+}
+footer address{
+    font-family: 'neuropolitical', sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 320px; /* Largura do vídeo */
+    height: 180px; /* Altura do vídeo */
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
