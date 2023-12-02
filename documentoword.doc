@@ -1,0 +1,86 @@
+1. Ser responsivo para pelo menos três resoluções de tela: mobile, tablet e desktop
+utilizando Media Queries (sem o uso de frameworks e mobile first). 
+2,0 [ ] 0% [x] 25% [ ] 50% [ ] 75% [ ] 100%
+
+em algumas paginas tem, acho q vai ser 25%
+------------------------------------------
+
+2. Desenvolvimento da Página Principal + 4 Menus/Páginas com conteúdos diferentes. 
+2,0 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+feito!
+-----------------------------------
+
+3. Validado 100% para HTML5 e CSS (Validadores W3C). 1,0 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+validado e sem erros!
+-----------------------------------------
+
+4. Design do site, com uso adequado de cores, fontes, fundos, imagens, logotipo,
+informações do rodapé, menu estilizado, efeitos com CSS, etc. 1,0 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+feito!
+----------------------------------------
+
+5. Uso semântico da HTML5, ou seja, cada conteúdo foi adicionado com a tag
+adequada, tanto para textos quanto para as áreas do layout (header, footer, nav,
+article, etc.)
+
+0,5 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+feito!
+------------------------------------------
+
+6. Desenvolvimento de um formulário de cadastro completo com uma boa
+apresentação, ou seja, com a aplicação de CSS, seguindo também as demais
+recomendações estudadas em sala de aula e os recursos HTML5.
+
+0,5 [ ] 0% [ ] 25% [x] 50% [ ] 75% [ ] 100%
+
+so fiz a pagina de login, tem que fazer uma pagina de cadastro, 50% eu acho
+------------------------------------------
+
+7. Desenvolvimento de uma galeria de imagens e vídeos (pode ser incorporado do
+YouTube).
+
+0,5 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+varias pastas de imagens, 100%
+-----------------------------------------
+
+8. Desenvolvimento de uma tabela para apresentação de dados relevantes ao tema. 
+0,5 [x] 0% [ ] 25% [ ] 50% [ ] 75% [ ] 100%
+
+nao feito
+------------------------------------------
+9. Organização geral e clareza do(s) arquivo(s) HTML. 0,5 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+foi feito, 100%
+--------------------------------------------
+
+10. Organização geral e clareza do(s) arquivo(s) CSS. 0,5 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+foi feito, 100%
+--------------------------------------------
+
+11. Uso somente de arquivos externos CSS (linkados ou importados), ou seja, sem
+nenhum código CSS incorporado ou inline.
+
+0,5 [ ] 0% [ ] 25% [x] 50% [ ] 75% [ ] 100%
+
+tem pastas que tem inline e outras nao, 50%
+---------------------------------------------
+
+12. Semântica textual corretamente aplicada aos textos e parágrafos do site (cite, time,
+em, strong, abbr, etc.). 0,5 [ ] 0% [ ] 25% [ ] 50% [ ] 75% [x] 100%
+
+100%
+--------------------------------------------
+
+Total: 10,0
+
+Pontuação extra (até +1,0 ponto): pela utilização de JavaScript, conforme o nível de
+dificuldade empregado.
+
+feito bastante JavaScript (+1pt)
+--------------------------------------------
